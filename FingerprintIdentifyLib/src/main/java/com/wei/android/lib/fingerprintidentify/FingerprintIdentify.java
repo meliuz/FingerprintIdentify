@@ -4,8 +4,6 @@ import android.content.Context;
 
 import com.wei.android.lib.fingerprintidentify.base.BaseFingerprint;
 import com.wei.android.lib.fingerprintidentify.impl.AndroidFingerprint;
-import com.wei.android.lib.fingerprintidentify.impl.MeiZuFingerprint;
-import com.wei.android.lib.fingerprintidentify.impl.SamsungFingerprint;
 
 /**
  * Copyright (c) 2017 Awei
@@ -59,23 +57,6 @@ public class FingerprintIdentify {
             if (androidFingerprint.isRegisteredFingerprint()) {
                 mFingerprint = androidFingerprint;
                 return;
-            }
-        }
-
-        SamsungFingerprint samsungFingerprint = new SamsungFingerprint(mContext, mExceptionListener);
-        if (samsungFingerprint.isHardwareEnable()) {
-            mSubFingerprint = samsungFingerprint;
-            if (samsungFingerprint.isRegisteredFingerprint()) {
-                mFingerprint = samsungFingerprint;
-                return;
-            }
-        }
-
-        MeiZuFingerprint meiZuFingerprint = new MeiZuFingerprint(mContext, mExceptionListener);
-        if (meiZuFingerprint.isHardwareEnable()) {
-            mSubFingerprint = meiZuFingerprint;
-            if (meiZuFingerprint.isRegisteredFingerprint()) {
-                mFingerprint = meiZuFingerprint;
             }
         }
     }
