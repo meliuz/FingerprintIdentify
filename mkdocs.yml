@@ -1,0 +1,6 @@
+---
+site_name: FingerprintIdentify
+nav:
+  - Home: README.md
+plugins:
+  - techdocs-core
