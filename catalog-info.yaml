@@ -5,10 +5,9 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: meliuz/FingerprintIdentify
-  description: "# FingerprintIdentify\n\nThis is an expandable Android fingerprint\
-    \ api compatible lib, which also combine these api:\n\nAndroid API\uFF1Aminimum\
-    \ support for An..."
+  description: "# FingerprintIdentify\n\nThis is an expandable Android fingerprint api compatible lib, which also combine these api:\n\nAndroid API：minimum support for An..."
   name: FingerprintIdentify
 spec:
   lifecycle: production
   type: service
+  owner: Unknown
