@@ -5,9 +5,19 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: meliuz/FingerprintIdentify
+<<<<<<< Updated upstream
   description: "# FingerprintIdentify\n\nThis is an expandable Android fingerprint\
     \ api compatible lib, which also combine these api:\n\nAndroid API\uFF1Aminimum\
     \ support for An..."
+=======
+  description: |-
+    # FingerprintIdentify
+
+    This is an expandable Android fingerprint api compatible lib, which also combine
+    these api:
+
+    Android API：minimum support for An...
+>>>>>>> Stashed changes
   name: FingerprintIdentify
 spec:
   lifecycle: production
